@@ -123,7 +123,7 @@ const LandingPage: React.FC = () => {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="bg-dark-800 rounded-lg overflow-hidden border border-dark-700"
                 >
-                  <img src={item.image_url || 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1E1E1E/444444?text=No+Image'} alt={item.name} className="w-full h-48 object-cover" />
+                  <img src={item.image_url || 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1E1E1E/FFFFFF?text=Image+Not+Found'} alt={item.name} className="w-full h-48 object-cover" />
                   <div className="p-6">
                     <h3 className="text-xl font-bold mb-2">{item.name}</h3>
                     <p className="text-slate-400 text-sm mb-4">{item.description}</p>

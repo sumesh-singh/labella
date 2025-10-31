@@ -18,7 +18,7 @@ const MenuCard: React.FC<MenuCardProps> = ({ item }) => {
       transition={{ duration: 0.3 }}
       className="bg-dark-800 rounded-xl border border-dark-700 overflow-hidden flex flex-col"
     >
-      <img src={item.image_url || 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1E1E1E/444444?text=No+Image'} alt={item.name} className="w-full h-40 object-cover" />
+      <img src={item.image_url || 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1E1E1E/FFFFFF?text=Image+Not+Found'} alt={item.name} className="w-full h-40 object-cover" />
       <div className="p-5 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-lg font-bold text-white">{item.name}</h3>
